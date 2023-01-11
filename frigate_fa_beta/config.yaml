@@ -16,9 +16,11 @@ ingress_entry: /
 panel_admin: false
 ports:
   5000/tcp: null
+  1984/tcp: null
   1935/tcp: null
 ports_description:
   5000/tcp: Web interface (Not required for Hass.io Ingress)
+  1984/tcp: Go2RTC API
   1935/tcp: RTMP streams
 host_network: false
 tmpfs: true
